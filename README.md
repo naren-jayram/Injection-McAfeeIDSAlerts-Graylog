@@ -2,7 +2,9 @@
 Converts raw McAfee IDS alerts to Common event Format (CEF) compliant messages and finally injects into Graylog.
 
 ### Use Case
+<div class=text-justify>
 Consider you have an infrastructure to push IDS alerts from McAfee NSM to Graylog to perform security analytics/correlation. Now, due to some reason McAfee IDS alerts did not make its way to Graylog. In scenarios like these, this script will come in handy. You can use the outcomes of this script to inject missing alerts to Graylog (If you are parsing logs in CEF format). 
+</div>
 
 ### Prerequisites
 1. Please go through the complete document (McAfee NSM- Manual Injection.docx) before you run this script
